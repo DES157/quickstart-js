@@ -27,10 +27,18 @@ limitations under the License.
 
   <link rel="stylesheet" href="main.css">
 
-  <!-- Firebase -->
-  <!-- ***********************************************************************************************************************
-       * TODO(DEVELOPER): Paste the initialization snippet from: Firebase Console > Overview > Add Firebase to your web app. *
-       *********************************************************************************************************************** -->
+  <script src="https://www.gstatic.com/firebasejs/3.7.3/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyD64AAZa365cuJ14CXPlhfstvOGK1RAmHw",
+      authDomain: "quickstart-js-a45d3.firebaseapp.com",
+      databaseURL: "https://quickstart-js-a45d3.firebaseio.com",
+      storageBucket: "quickstart-js-a45d3.appspot.com",
+      messagingSenderId: "508519607188"
+    };
+    firebase.initializeApp(config);
+  </script>
 
   <script type="text/javascript">
 
